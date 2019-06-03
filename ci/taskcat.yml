@@ -1,0 +1,17 @@
+---
+global:
+  owner: amit.nepal@taskcat.com
+  qsname: runtaskcat
+  regions:
+    - us-west-1
+    - us-west-2
+tests:
+  taskcat-Scenario1:
+    parameter_input: test-input.json
+    template_file: sample.template
+  taskcat-Scenario2:
+    parameter_input: test-input.json
+    regions:
+      - us-west-2
+    template_file: sample.template
+

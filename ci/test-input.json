@@ -1,0 +1,11 @@
+[
+    {
+        "ParameterKey": "NameOfService",
+        "ParameterValue": "TestStackTestCat"
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "OregonAWS12"
+    }
+    
+]
